@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="shotsbynakya.js" defer></script>
+    <script src="cart.js" async></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Order Prints</title>
+  </head>
+  <body>
+    <!-- <div id="main"> -->
+      <div id="top">
+        <div id="topTop">
+          <img src="https://i.ibb.co/NWHBNtw/watermark.png" alt="watermark" />"
+        </div>
+        <div id="topBottom">
+          <nav class="navBar" id="navBarPrints">
+            <a href="index.html">Home</a>
+            <a href="aboutus.html">About Me</a>
+            <a class="active" href="prints.html">Order Prints</a>
+            <!-- <a href="scheduler.html">Schedule a Shoot</a> -->
+          </nav>
+        </div>
+      </div>
+
+
+      
+    <!-- </div> -->
+    <section class="container content-section">
+      <h2 class="section-header">Landscapes</h2>
+      <div class="shop-items">
+        <div class="shop-item">
+          <span class="shop-item-title">Amalfi Coast, Italy</span>
+          <img class="shop-item-image zoom" src="Images/Landscape1.jpg" /><br /><p>16x20</p>
+          <div class="shop-item-details">
+            <span class="shop-item-price">$70</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+        <div class="shop-item">
+          <span class="shop-item-title">Lauterbrunnen, Switzerland</span>
+          <img class="shop-item-image zoom" src="Images/Landscape2.jpg" /><br /><p>16x20</p>
+          <div class="shop-item-details">
+            <span class="shop-item-price">$70</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+        <div class="shop-item">
+          <span class="shop-item-title">Blooming Prarie, Mn</span><br />
+          <img class="shop-item-image zoom2" src="Images/Landscape4.jpg" /><p>16x20</p>
+          <div class="shop-item-details">
+            <span class="shop-item-price">$70</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+        <div class="shop-item">
+          <span class="shop-item-title">German Countryside</span><br />
+          <img class="shop-item-image zoom" src="Images/Landscape3.jpg" /><p>16x20</p>
+          <div class="shop-item-details">
+            <span class="shop-item-price">$70</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container content-section">
+      <div class="shop-items">
+        <div class="shop-item">
+          <span class="shop-item-title">Amsterdam, Netherlands</span>
+          <img class="shop-item-image zoom" src="Images/Landscape5.jpg" /><br /><p>20x30</p>
+          <div class="shop-item-details">
+            <span class="shop-item-price">$110</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+        <div class="shop-item">
+          <span class="shop-item-title">Lisbon, Portugal</span>
+          <img class="shop-item-image zoom" src="Images/Landscape6.jpg" /><br /><p>20x30</p>
+          <div class="shop-item-details">
+            <span class="shop-item-price">$110</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+        <div class="shop-item">
+          <span class="shop-item-title">Reichsburg Castle, Germany</span><br />
+          <img class="shop-item-image zoom" src="Images/Landscape7.jpg" /><p>20x30</p>
+          <div class="shop-item-details">
+            <span class="shop-item-price">$110</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+        <div class="shop-item">
+          <span class="shop-item-title">Cochem, Germany</span><br />
+          <img class="shop-item-image zoom" src="Images/Landscape8.jpg" /><p>20x30</p>
+          <div class="shop-item-details">
+            <span class="shop-item-price">$110</span>
+            <button class="btn btn-primary shop-item-button" type="button">
+              ADD TO CART
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container content-section">
+      <h2 class="section-header">CART</h2>
+      <div class="cart-row">
+        <span class="cart-item cart-header cart-column">ITEM</span>
+        <span class="cart-price cart-header cart-column">PRICE</span>
+        <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+      </div>
+      <div class="cart-items"></div>
+      <div class="cart-total">
+        <strong class="cart-total-title">Total</strong>
+        <span class="cart-total-price">$0</span>
+      </div>
+      <button class="btn btn-primary btn-purchase" type="button">
+        PURCHASE
+      </button>
+    </section>
+  </body>
+</html>
